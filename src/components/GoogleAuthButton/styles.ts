@@ -19,6 +19,7 @@ export const UserArea = styled.div`
 
    > img {
       cursor: pointer;
+      outline: none;
       &:hover {
          box-shadow: var(--boxShadowHoverGrey);
       }
@@ -31,6 +32,12 @@ export const UserArea = styled.div`
    img {
       width: 40px;
       border-radius: 100%;
+   }
+
+   @media (max-width: 430px) {
+      img {
+         width: 50px;
+      }
    }
 `;
 

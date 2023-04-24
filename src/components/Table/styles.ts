@@ -15,7 +15,7 @@ export const Table = styled.table`
    width: 100%;
    min-width: 900px;
    text-align: left;
-   margin: 1.5rem 0;
+   margin: 1.5rem 0 2rem;
    border-collapse: collapse;
 `;
 
